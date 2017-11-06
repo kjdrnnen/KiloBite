@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:orientation="vertical"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content"
+                                             tools:layout_editor_absoluteY="81dp"
+                                             tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/exercise_name"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:text="Exercise Name"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintLeft_toRightOf="@+id/number_of_reps"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/number_of_reps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rep Count"
+      />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"/>
+
+
+</android.support.constraint.ConstraintLayout>
